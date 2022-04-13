@@ -1,0 +1,25 @@
+.header {
+	background: #0067A3;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.header::after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../../assets/arrow.svg') no-repeat;
+	left: 5px;
+	cursor: pointer;
+}
+
+.sprint {
+	display: block;
+	margin-left: auto;
+	background-color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}

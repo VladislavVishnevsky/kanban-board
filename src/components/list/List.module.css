@@ -1,0 +1,60 @@
+.list {
+	width: 350px;
+	overflow-y: auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin: 15px;
+	box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+.listTitle {
+	margin-top: 0;
+}
+
+.task {
+	background: #465671;
+	color: #fff;
+	margin: 7px 0;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.task:hover {
+	text-decoration: underline;
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton {
+	background: none;
+	border: none;
+	appearance: none;
+	font-size: 17px;
+	color: #737373;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+	display: flex;
+	position: relative;
+}
+
+.addButton:hover {
+	color: #000;
+}
+
+.addButton::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background: url('../../assets/plus.svg') no-repeat;
+	left: -10px;
+	top: 3px;
+}
+
+.newCardBlock::before {}
